@@ -1,0 +1,50 @@
+// Delta variables file.
+//
+// Delta is designed to be configurable through the variables below. Each
+// variable follows a tailor made naming convention. The first part of the
+// variable name is the area or component that it will generally apply to. The
+// second part of the variable name is a description of what the variable is.
+// 
+// The only exception to this naming convention rule is the global variables
+// that are defined below.
+
+// -----------------------------------------------------------------------------
+// GLOBAL VARIABLES
+// -----------------------------------------------------------------------------
+/* Primary colour used for highlights, active buttons etc. */
+$primaryColour:                 #FFF;
+/* Secondary colour used as a highlight colour. */
+$secondaryColour:               #FFF;
+/* Tertiary colour used to compliment the primary and secondary colours */
+$tertiaryColour:                #FFF;
+
+/* Primary font colour. Used for all body text. */
+$fontPrimaryColour:             #FFF;
+/* Less important font colour, for example headings and less important info. */
+$fontLessImportantColour:       #FFF;
+/* Even less important font colour, used for things such as nav tags. */
+$fontEvenLessImportantColour:   #FFF;
+
+/* Body font's size. */
+$fontBodySize:                  14px;
+/* Heading size. */
+$fontHeadingSize:               16px;
+/* Indicator/tag font size. */
+$fontIndicatorSize:             12px;
+// -----------------------------------------------------------------------------
+// GLOBAL VARIABLES
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// SCREEN SIZE BREAKPOINTS
+// -----------------------------------------------------------------------------
+/* Breakpoints are screen sizes at which the layout of Delta will change. Be
+   careful modifying these if you are not 100% sure about what you are doing. */
+$breakPoints: (
+    'md': 520px,
+    'lg': 960px,
+    'xl': 1240px
+);
+// -----------------------------------------------------------------------------
+// SCREEN SIZE BREAKPOINTS
+// -----------------------------------------------------------------------------
