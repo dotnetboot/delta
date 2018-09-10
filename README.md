@@ -13,8 +13,9 @@ quickly.
 
 Delta is brought to you by [**Dotnet Boot**](https://dotnetboot.com): a 
 customisable, fully functional administrative panel with a profesionally 
-developed, fully tested API that helps you focus on the important parts of your 
-application.
+developed, fully tested API. Dotnet Boot helps you focus on the important parts 
+of your application rather than the boring bootstrapping parts such as
+authentication, authorization, user management and much more.
 
 ## Getting Started
 
