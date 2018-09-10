@@ -6,3 +6,14 @@
 //
 // We define our mixins within this file to prevent them from causing a mess
 // elsewhere.
+
+@import './_variables.scss';
+
+// Media query mix-in. Allows you to customise the way styles function at
+// the different screen sizes defined in the $breakpoints map in
+// _variables.scss.
+@mixin mq($size: 'md') {
+    @media screen and (min-width: #{map-get($breakpoints, $size)}) {
+        @content;
+    }
+}

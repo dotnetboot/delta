@@ -9,30 +9,26 @@
 // that are defined below.
 
 // -----------------------------------------------------------------------------
-// GLOBAL VARIABLES
+// GLOBAL DEFAULT VARIABLES
 // -----------------------------------------------------------------------------
-/* Primary colour used for highlights, active buttons etc. */
-$primaryColour:                 #FFF;
-/* Secondary colour used as a highlight colour. */
-$secondaryColour:               #FFF;
-/* Tertiary colour used to compliment the primary and secondary colours */
+$bodyColour:                    #F4F2F7;
+
+$primaryColour:                 #6C5CC4;
+$secondaryColour:               #BADBE4;
 $tertiaryColour:                #FFF;
 
-/* Primary font colour. Used for all body text. */
-$fontPrimaryColour:             #FFF;
-/* Less important font colour, for example headings and less important info. */
-$fontLessImportantColour:       #FFF;
-/* Even less important font colour, used for things such as nav tags. */
-$fontEvenLessImportantColour:   #FFF;
+$fontPrimaryColour:             #676767;
+$fontLessImportantColour:       #A4A4A4;
+$fontEvenLessImportantColour:   #CDCDCD;
 
-/* Body font's size. */
 $fontBodySize:                  14px;
-/* Heading size. */
 $fontHeadingSize:               16px;
-/* Indicator/tag font size. */
 $fontIndicatorSize:             12px;
+
+$paddingBasis:                  18px;
+$marginBasis:                   18px;
 // -----------------------------------------------------------------------------
-// GLOBAL VARIABLES
+// GLOBAL DEFAULT VARIABLES
 // -----------------------------------------------------------------------------
 
 // -----------------------------------------------------------------------------
@@ -40,10 +36,10 @@ $fontIndicatorSize:             12px;
 // -----------------------------------------------------------------------------
 /* Breakpoints are screen sizes at which the layout of Delta will change. Be
    careful modifying these if you are not 100% sure about what you are doing. */
-$breakPoints: (
-    'md': 520px,
-    'lg': 960px,
-    'xl': 1240px
+$breakpoints: (
+    'md': 768px,
+    'lg': 992px,
+    'xl': 1200px
 );
 // -----------------------------------------------------------------------------
 // SCREEN SIZE BREAKPOINTS
