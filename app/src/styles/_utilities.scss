@@ -1,0 +1,41 @@
+// Delta utility classes.
+//
+// Utility classes are classes that have generic styles which can apply to any
+// element. They do not depend on a certain hierarchical structure, nor do they
+// care about where in the DOM they are used.
+
+// -----------------------------------------------------------------------------
+// COLOUR RELATED UTILITY CLASSES
+// -----------------------------------------------------------------------------
+%u-bg-primary,
+.u-bg-primary {
+    background: $primaryColour;
+}
+
+%u-fill-primary,
+.u-fill-primary {
+    fill: $primaryColour;
+}
+
+%u-bg-secondary,
+.u-bg-secondary {
+    background: $secondaryColour;
+}
+
+%u-fill-secondary,
+.u-fill-secondary {
+    fill: $secondaryColour;
+}
+
+%u-bg-tertiary,
+.u-bg-tertiary {
+    background: $tertiaryColour;
+}
+
+%u-fill-tertiary,
+.u-fill-tertiary {
+    fill: $tertiaryColour;
+}
+// -----------------------------------------------------------------------------
+// COLOUR RELATED UTILITY CLASSES
+// -----------------------------------------------------------------------------

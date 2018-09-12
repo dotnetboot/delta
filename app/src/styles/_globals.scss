@@ -4,8 +4,9 @@
 
 body {
     background: $bodyColour;
+
+    color: $fontPrimaryColour;
     font-family: $fontBody;
     font-size: $fontBodySize;
     font-weight: $fontBodyWeight;
 }
-

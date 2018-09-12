@@ -38,6 +38,8 @@ $topbarBorder: 1px solid $topbarBorderColour;
 
 .topbar__burger {
     border-right: $topbarBorder;
+
+    justify-content: center;
 }
 
 .topbar__content {
