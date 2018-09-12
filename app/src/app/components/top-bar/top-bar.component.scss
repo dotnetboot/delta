@@ -1,0 +1,46 @@
+@import '../../../styles/_variables.scss';
+
+// -----------------------------------------------------------------------------
+// TOP BAR VARIABLES
+// -----------------------------------------------------------------------------
+$topbarBackgroundColour: white;
+$topbarBorderColour: #DDDDDD;
+
+$topbarHighlightBorder: 10px solid $primaryColour;
+$topbarBorder: 1px solid $topbarBorderColour;
+// -----------------------------------------------------------------------------
+// TOP BAR VARIABLES
+// -----------------------------------------------------------------------------
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+
+    background: $topbarBackgroundColour;
+
+    border-top: $topbarHighlightBorder;
+    border-bottom: $topbarBorder;
+}
+
+.topbar__burger,
+.topbar__usermenu {
+    width: 60px;
+}
+
+.topbar__burger,
+.topbar__content,
+.topbar__usermenu {
+    display: flex;
+    align-items: center;
+}
+
+.topbar__burger {
+    border-right: $topbarBorder;
+}
+
+.topbar__content {
+    flex: 1;
+    padding: $paddingBasis;
+}

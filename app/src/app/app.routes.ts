@@ -25,7 +25,7 @@ const routes: Routes = [
   // Login routes - Login has its own routes and its own top level component.
   {
     path: 'login',
-    loadChildren: './areas/login/login.module#LoginAreaModule'
+    loadChildren: './areas/login/login-area.module#LoginAreaModule'
   },
 ];
 

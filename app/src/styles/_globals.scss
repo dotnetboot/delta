@@ -1,0 +1,11 @@
+// Delta global styles.
+//
+// Global styles (such as body background and font size) are defined here.
+
+body {
+    background: $bodyColour;
+    font-family: $fontBody;
+    font-size: $fontBodySize;
+    font-weight: $fontBodyWeight;
+}
+

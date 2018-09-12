@@ -3,20 +3,23 @@
     height: 100%;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: row;
 }
 
-    .app-wrapper__sidebar {
+.app-wrapper__sidebar {
+    width: 200px;
+    display: none;
+}
 
-    }
+.app-wrapper__content {
+    flex: 1;
+}
 
-    .app-wrapper__content {
+.app-wrapper__content__topbar {
 
-    }
+}
 
-        .app-wrapper__content__topbar {
+.app-wrapper__content__main {
 
-        }
-
-        .app-wrapper__content__main {
-
-        }
+}

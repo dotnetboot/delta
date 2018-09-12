@@ -7,8 +7,10 @@
 // mix-ins. Styles related to components, forms or entire pages should be
 // added into the respective Angular component stylesheet.
 
+@import 'styles/_reset.scss';
 @import 'styles/_variables.scss';
 @import 'styles/_mixins.scss';
+@import 'styles/_globals.scss';
 
 // Delta master stylesheet file.
 //

@@ -8,6 +8,8 @@
 // The only exception to this naming convention rule is the global variables
 // that are defined below.
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
 // -----------------------------------------------------------------------------
 // GLOBAL DEFAULT VARIABLES
 // -----------------------------------------------------------------------------
@@ -21,6 +23,8 @@ $fontPrimaryColour:             #676767;
 $fontLessImportantColour:       #A4A4A4;
 $fontEvenLessImportantColour:   #CDCDCD;
 
+$fontBody:                      'Source Sans Pro';
+$fontBodyWeight:                600;
 $fontBodySize:                  14px;
 $fontHeadingSize:               16px;
 $fontIndicatorSize:             12px;
