@@ -12,19 +12,9 @@
     background: $primaryColour;
 }
 
-%u-fill-primary,
-.u-fill-primary {
-    fill: $primaryColour;
-}
-
 %u-bg-secondary,
 .u-bg-secondary {
     background: $secondaryColour;
-}
-
-%u-fill-secondary,
-.u-fill-secondary {
-    fill: $secondaryColour;
 }
 
 %u-bg-tertiary,
@@ -32,9 +22,24 @@
     background: $tertiaryColour;
 }
 
+%u-fill-primary,
+.u-fill-primary {
+    fill: $primaryColour;
+}
+
+%u-fill-secondary,
+.u-fill-secondary {
+    fill: $secondaryColour;
+}
+
 %u-fill-tertiary,
 .u-fill-tertiary {
     fill: $tertiaryColour;
+}
+
+%u-fill-less-important,
+.u-fill-less-important {
+    fill: $fontLessImportantColour;
 }
 // -----------------------------------------------------------------------------
 // COLOUR RELATED UTILITY CLASSES

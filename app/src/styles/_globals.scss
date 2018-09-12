@@ -4,9 +4,13 @@
 
 body {
     background: $bodyColour;
+}
 
+body,
+input {
     color: $fontPrimaryColour;
     font-family: $fontBody;
     font-size: $fontBodySize;
     font-weight: $fontBodyWeight;
 }
+

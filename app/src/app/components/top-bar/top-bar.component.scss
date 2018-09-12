@@ -24,25 +24,36 @@ $topbarBorder: 1px solid $topbarBorderColour;
     border-bottom: $topbarBorder;
 }
 
-.topbar__burger,
-.topbar__usermenu {
+.topbar__content--burger,
+.topbar__content--usermenu {
     width: 60px;
 }
 
-.topbar__burger,
-.topbar__content,
-.topbar__usermenu {
+.topbar__content--burger,
+.topbar__content--section,
+.topbar__content--usermenu {
     display: flex;
     align-items: center;
 }
 
-.topbar__burger {
+.topbar__content--burger {
     border-right: $topbarBorder;
 
     justify-content: center;
 }
 
-.topbar__content {
+.topbar__content--section {
     flex: 1;
     padding: $paddingBasis;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: $paddingBasis / 2;
+    width: 100%;
+
+    &::placeholder {
+        color: $fontEvenLessImportantColour;
+    }
 }
